@@ -1,0 +1,115 @@
+/* Navbar Styling */
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #343a40;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    color: #343a40;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url('images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+}
+
+.hero-section h1 {
+    font-family: 'Jua', sans-serif;
+    font-size: 3rem;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+}
+
+.hero-section .btn {
+    padding: 10px 30px;
+    font-size: 1.2rem;
+}
+
+/* Carousel Styling */
+.carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/* Text Beside Carousel */
+.text-beside-carousel h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.text-beside-carousel p {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+/* Featured Products Section */
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.card-footer {
+    background-color: #f8f9fa;
+    border-top: none;
+}
+
+.card-footer small {
+    color: #6c757d;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+    color: #343a40;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 60px 0;
+    }
+
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+
+    .text-beside-carousel h2 {
+        font-size: 1.8rem;
+    }
+}
